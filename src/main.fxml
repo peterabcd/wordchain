@@ -5,10 +5,11 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainController">
+<AnchorPane prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainController">
    <children>
-      <TextArea fx:id="txtbox" editable="false" layoutX="50.0" layoutY="53.0" prefHeight="400.0" prefWidth="300.0" />
-      <TextField fx:id="sendbox" layoutX="50.0" layoutY="488.0" prefHeight="45.0" prefWidth="258.0" />
+      <TextArea fx:id="txtbox" editable="false" layoutX="50.0" layoutY="53.0" prefHeight="400.0" prefWidth="298.0" />
+      <TextField fx:id="sendbox" layoutX="82.0" layoutY="488.0" prefHeight="45.0" prefWidth="226.0" />
       <Button fx:id="sender" layoutX="308.0" layoutY="488.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="52.0" text="전송" />
+      <TextField fx:id="lastbox" editable="false" layoutX="50.0" layoutY="488.0" prefHeight="45.0" prefWidth="32.0" />
    </children>
 </AnchorPane>

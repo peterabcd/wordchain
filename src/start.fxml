@@ -5,10 +5,11 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+<AnchorPane prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
    <children>
-      <Button alignment="CENTER" layoutX="180.0" layoutY="324.0" mnemonicParsing="false" onMouseClicked="#goMain" text="입장" />
-      <Label alignment="CENTER" layoutX="120.0" layoutY="144.0" prefHeight="44.0" prefWidth="161.0" text="닉네임 입력" />
-      <TextField fx:id="uid" alignment="CENTER" layoutX="100.0" layoutY="205.0" prefHeight="50.0" prefWidth="200.0" promptText="ID" />
+      <Button alignment="CENTER" layoutX="181.0" layoutY="378.0" mnemonicParsing="false" onMouseClicked="#goMain" text="입장" />
+      <Label alignment="CENTER" layoutX="121.0" layoutY="220.0" prefHeight="44.0" prefWidth="161.0" text="닉네임 입력" />
+      <TextField fx:id="uid" alignment="CENTER" layoutX="100.0" layoutY="291.0" prefHeight="50.0" prefWidth="200.0" promptText="ID" />
+      <Label alignment="CENTER" layoutX="120.0" layoutY="129.0" prefHeight="44.0" prefWidth="161.0" text="&quot; 끝 말 잇 기 &quot;" />
    </children>
 </AnchorPane>

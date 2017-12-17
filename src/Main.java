@@ -9,7 +9,9 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("start.fxml"));
+        // 닉네임을 입력하는 fxml 파일 불러오기
         primaryStage.setTitle("Word Chain");
+        // 끝말잇기라는 뜻
         primaryStage.setScene(new Scene(root, 400, 600));
         primaryStage.show();
     }
